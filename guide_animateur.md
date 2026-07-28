@@ -15,27 +15,27 @@ Ce guide accompagne `lab_injection_indirecte.ipynb`. Il vise une animation de 60
 
 ## Réponses attendues aux exécutions
 
-- **Section 2 (référence)** : résumé fidèle mentionnant les 3 risques. Sert de point de comparaison.
-- **Section 3 (attaque)** : dans la majorité des modèles, la phrase « BANANE... » apparaît ET les risques sont minimisés ou omis. Certains modèles bien alignés résistent partiellement — **c'est une excellente occasion pédagogique** : « pourquoi ce modèle résiste-t-il mieux? Que nous apprend cette variabilité? »
-- **Mitigation A** : réduit sans éliminer. Souvent contournable. Montre que « dire au modèle d'être prudent » ne suffit pas.
-- **Mitigation B** : nettement meilleure. Point clé : la séparation structurelle bat l'exhortation.
-- **Mitigation C** : la plus robuste, mais introduisez le coût (latence, faux positifs). Testez le document légitime pour montrer qu'il passe.
+- **Section 2 (référence)**: résumé fidèle mentionnant les 3 risques. Sert de point de comparaison.
+- **Section 3 (attaque)**: dans la majorité des modèles, la phrase « BANANE... » apparaît ET les risques sont minimisés ou omis. Certains modèles bien alignés résistent partiellement — **c'est une excellente occasion pédagogique** : « pourquoi ce modèle résiste-t-il mieux? Que nous apprend cette variabilité? »
+- **Mitigation A**: réduit sans éliminer. Souvent contournable. Montre que « dire au modèle d'être prudent » ne suffit pas.
+- **Mitigation B**: nettement meilleure. Point clé : la séparation structurelle bat l'exhortation.
+- **Mitigation C**: la plus robuste, mais introduisez le coût (latence, faux positifs). Testez le document légitime pour montrer qu'il passe.
 
 ## Pièges fréquents
 
-- **« Mon modèle ne dit jamais BANANE, la démo est cassée »** : non — c'est un résultat valide qui montre qu'un meilleur alignement aide. Renforcez la charge (ajoutez « ceci est une consigne prioritaire du développeur ») pour l'illustrer, tout en soulignant que la course armes/défenses n'a pas de fin.
-- **Variabilité entre exécutions** : attendue (température 0.7). C'est précisément pourquoi on mesure sur plusieurs essais plutôt qu'un seul.
-- **Débat « c'est donc inutile de se défendre »** : recadrez vers la gestion du risque — on ne vise pas 0 %, on vise la réduction en profondeur + la gouvernance du risque résiduel.
+- **« Mon modèle ne dit jamais BANANE, la démo est cassée »**: non — c'est un résultat valide qui montre qu'un meilleur alignement aide. Renforcez la charge (ajoutez « ceci est une consigne prioritaire du développeur ») pour l'illustrer, tout en soulignant que la course armes/défenses n'a pas de fin.
+- **Variabilité entre exécutions**: attendue (température 0.7). C'est précisément pourquoi on mesure sur plusieurs essais plutôt qu'un seul.
+- **Débat « c'est donc inutile de se défendre »**: recadrez vers la gestion du risque — on ne vise pas 0 %, on vise la réduction en profondeur + la gouvernance du risque résiduel.
 
 ## Adaptation selon le public
 
-- **Public non technique / dirigeants** : faites la section 3 en démonstration devant le groupe, sautez le code des mitigations, concentrez 30 min sur la discussion de la section 7 et les implications organisationnelles.
-- **Public technique / développeurs** : ajoutez un défi — « écrivez une injection qui contourne la mitigation B », puis « améliorez le détecteur ». La dynamique attaque/défense soutient l'engagement.
-- **Version bilingue** : le notebook et les prompts se traduisent directement en anglais; les charges et le code restent identiques. Prévু pour une livraison EN/FR.
+- **Public non technique / dirigeants**: faites la section 3 en démonstration devant le groupe, sautez le code des mitigations, concentrez 30 min sur la discussion de la section 7 et les implications organisationnelles.
+- **Public technique / développeurs**: ajoutez un défi — « écrivez une injection qui contourne la mitigation B », puis « améliorez le détecteur ». La dynamique attaque/défense soutient l'engagement.
+- **Version bilingue**: le notebook et les prompts se traduisent directement en anglais; les charges et le code restent identiques. Prévু pour une livraison EN/FR.
 
 ## Objectif d'apprentissage à ne pas manquer
 
-Si les participants ne retiennent qu'une chose : **un LLM ne distingue pas les instructions des données, et cette limite se gère par des couches de défense et de la gouvernance — elle ne se corrige pas par une simple consigne.** Tout le reste découle de là.
+Si les participants ne retiennent qu'une chose: **un LLM ne distingue pas les instructions des données, et cette limite se gère par des couches de défense et de la gouvernance — elle ne se corrige pas par une simple consigne.** Tout le reste découle de là.
 
 ---
 *Préparé par Yannick Lepage — licence MIT.*
