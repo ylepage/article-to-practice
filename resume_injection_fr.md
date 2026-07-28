@@ -1,4 +1,4 @@
-# De l'article à la pratique — L'injection de prompt indirecte
+# De la recherche à la pratique — L'injection de prompt indirecte
 
 **Article source :** Greshake, K., Abdelnabi, S., Mishra, S., Endres, C., Holz, T., & Fritz, M. (2023). *Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection.* AISec '23. arXiv:2302.12173
 
