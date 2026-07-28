@@ -11,13 +11,13 @@
 
 Quand un assistant d'IA lit un document, une page web ou un courriel, il peut y trouver des instructions cachées — et les suivre comme si elles venaient de vous.
 
-## Le problème, expliqué simplement
+## Le problème
 
 Les modèles de langage ont une limite architecturale fondamentale : **ils ne distinguent pas les instructions des données**. Tout ce qui entre — votre question, le document à résumer, la page web consultée — est traité comme un seul flux de texte. C'est comme un employé qui exécuterait toute phrase à l'impératif trouvée dans son courrier, peu importe qui l'a écrite.
 
 Les chercheurs ont démontré qu'un attaquant n'a donc pas besoin d'accéder à votre assistant : il lui suffit de **placer ses instructions là où l'assistant lira**. Une phrase dissimulée dans une page web (en texte blanc sur fond blanc, par exemple) peut ordonner à l'assistant de déformer un résumé, de solliciter des renseignements personnels ou de diffuser un lien frauduleux — pendant que l'utilisateur croit dialoguer avec un outil neutre. C'est l'injection *indirecte* : l'attaque transite par le contenu, pas par l'utilisateur.
 
-## Pourquoi c'est important pour vos organisations
+## Pourquoi c'est important pour votre organisation
 
 En 2023, ce scénario était une démonstration de laboratoire. Aujourd'hui, chaque assistant branché sur vos courriels, vos documents SharePoint ou le web — et chaque agent capable d'agir (envoyer, réserver, acheter) — présente cette surface d'attaque. L'OWASP classe l'injection de prompt au **premier rang des risques des applications LLM**. Trois conséquences concrètes pour une organisation publique :
 
