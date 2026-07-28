@@ -19,7 +19,7 @@ Les chercheurs ont démontré qu'un attaquant n'a donc pas besoin d'accéder à 
 
 ## Pourquoi c'est important pour votre organisation
 
-En 2023, ce scénario était une démonstration de laboratoire. Aujourd'hui, chaque assistant branché sur vos courriels, vos documents SharePoint ou le web — et chaque agent capable d'agir (envoyer, réserver, acheter) — présente cette surface d'attaque. L'OWASP classe l'injection de prompt au **premier rang des risques des applications LLM**. Trois conséquences concrètes pour une organisation publique :
+En 2023, ce scénario était une démonstration de laboratoire et le sujet de la recherche qui a mené à cette pratique. Aujourd'hui, chaque assistant branché sur vos courriels, vos documents SharePoint ou le web — et chaque agent capable d'agir (envoyer, réserver, acheter) — présente cette surface d'attaque. L'OWASP classe l'injection de prompt au **premier rang des risques des applications LLM**. Trois conséquences concrètes pour une organisation publique :
 
 1. **La confiance dans les résumés et analyses générés** doit être calibrée : le contenu source peut manipuler la sortie.
 2. **Le périmètre de sécurité change** : il ne suffit plus de contrôler qui parle à l'IA; il faut contrôler ce qu'elle lit.
