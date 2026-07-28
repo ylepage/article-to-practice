@@ -9,12 +9,12 @@ Un échantillon pédagogique complet qui transforme un article de recherche en s
 | Fichier | Rôle | Durée |
 |---|---|---|
 | `resume_injection_fr.md` | Résumé vulgarisé d'une page — « l'article en 5 minutes » pour un public professionnel non technique | 5 min de lecture |
-| `lab_injection_indirecte.ipynb` | Mini-laboratoire Jupyter : réaliser une injection inoffensive, tester 3 mitigations, **mesurer** leur efficacité | 45-60 min |
+| `lab_injection_indirecte.ipynb` | Mini-laboratoire Jupyter: réaliser une injection inoffensive, tester 3 mitigations, **mesurer** leur efficacité | 45-60 min |
 | `guide_animateur.md` | Guide de l'animateur : minutage, réponses attendues, pièges fréquents, adaptation débutant/avancé | — |
 
 ## Pourquoi cet exemple
 
-Ce triptyque (résumé accessible → exercice pratique → guide d'animation) illustre le mouvement « paper-to-practice » : rendre un concept d'IA complexe concret, mesurable et actionnable. Il couvre trois axes à la fois — **schémas d'invite**, **évaluation empirique de modèles** et **IA responsable** — sur un sujet classé n° 1 du OWASP Top 10 for LLM Applications.
+Ce triptyque (résumé accessible → exercice pratique → guide d'animation) illustre le mouvement « paper-to-practice » : rendre un concept d'IA complexe concret, mesurable et actionnable. Il couvre trois axes à la fois — **schémas d'invite**, **évaluation empirique de modèles** et **IA responsable** — sur un sujet classé dans le OWASP Top 10 for LLM Applications.
 
 ## Prérequis techniques
 
